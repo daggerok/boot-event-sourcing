@@ -1,0 +1,3 @@
+rootProject.name = 'boot-event-sourcing'
+enableFeaturePreview 'STABLE_PUBLISHING'
+include 'docs'
