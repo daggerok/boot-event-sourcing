@@ -13,6 +13,8 @@ Read link:https://daggerok.github.io/boot-event-sourcing[project reference docum
 Let's implement simple internet store where you can create,
 paid order and where system can change it's state....
 
+link:https://www.wiseweb.pl/blog-how-to-implement-event-sourcing-in-java/[motivation]
+
 === build, test, run
 
 .build, run and test using gradle / docker

@@ -18,21 +18,22 @@ class App {
 
   @Bean
   fun routes() = router {
-    resources("/**", ClassPathResource("/static"))
     ("/").nest {
       contentType(TEXT_HTML)
       GET("/") {
+        //ok().render("index", mapOf("message" to "ololo trololo"))
         create("index")
             .modelAttribute("message", "ololo trololo")
             .build() as Mono<ServerResponse>
       }
       contentType(APPLICATION_JSON_UTF8)
-      GET("/**") {
+      GET("/api/**") {
         ok().body(
             mapOf("hello" to "world").toMono()
         )
       }
     }
+    resources("/**", ClassPathResource("/public"))
   }
 }
 

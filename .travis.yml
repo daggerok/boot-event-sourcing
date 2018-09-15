@@ -4,9 +4,10 @@ notifications:
 env:
   global:
   - TERM=dumb
+  - secure: kkxhc9xpa/Njzs/5n3XYF4uMMa/Epp4WmqRRmbEQ3RfjIrHDuqq3QGU4i7JH082jD0XuPlCpf/4CY07jq0BS2KGrEsa9caOpwR+NXPP6105kbBQBkqgpmI4aHdfkb3oBdaswGuUqfXsLzRYnraWTpMPW4vinIcpJ82rPBJYmNE2LEMlHlV2Wxm1LOjpCccbdYdL7i8ujoUyyv4NcfG17YxhlovwVprexx5DwVtk27NFiJkIpCJ8hdautCjFbPMbiMxXu3upU2MQLm+qVXFDaclK9d9R5ZNtbiWS9WyyoOUXrS/bqic8SThsks7pVxnV8oUm/n7ta3ZOwrBlnqk/+yzPeeLTMpdwvxKDU3YO+Z4vz4LcHurke3ExWq+lAX0L6QIjkJMzNLUP/cBwdvlLScIobtwimIK/3MaVXFFu8pn7tTiDG7jNlED1WJjMUp9jH7XYqQSacJ58nvmmnJ0hJu9BHW7cY4snKiu2ccMyYeXrWYPKYo5xFqWbD871F5TzGRTWDKx38IZJeH9U+RGu+1LgeZIxnST43Qm9CCJDNST7/sEsMLcGhkx8L+LXrbRMehZwWBBBZ9xIsVJ7p9spSbtxay4PL28iozzdOZr5u8rUi2kwNkHKs7wgzyE8CwP4wwxg4pV2noR3lmbm7lmJKjt9siXCchmX0ONQkFZ93NpY=
 
 language: java
-jdk: oraclejdk10
+jdk: oraclejdk8
 
 service:
 - docker
@@ -17,7 +18,6 @@ addons:
     sources:
     - google-chrome
     packages:
-    - google-chrome-stable
     - google-chrome-stable
     - libappindicator1
     - fonts-liberation
