@@ -4,7 +4,7 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>boot-event-sourcing (0.0.1)</title>
-<date>2018-09-15 18:44:15 UTC</date>
+<date>2018-09-15 19:01:46 UTC</date>
 <author>
 <personname>
 <firstname>Maksim</firstname>
@@ -16,7 +16,7 @@
 <revhistory>
 <revision>
 <revnumber>0.0.1</revnumber>
-<date>2018-09-15 18:44:15 UTC</date>
+<date>2018-09-15 19:01:46 UTC</date>
 <authorinitials>MK</authorinitials>
 </revision>
 </revhistory>
@@ -25,6 +25,7 @@
 <title>Introduction</title>
 <simpara>Let&#8217;s implement simple internet store where you can create,
 paid order and where system can change it&#8217;s state&#8230;&#8203;.</simpara>
+<simpara><link xl:href="https://www.wiseweb.pl/blog-how-to-implement-event-sourcing-in-java/">motivation</link></simpara>
 <section xml:id="build-test-run">
 <title>build, test, run</title>
 <formalpara>
