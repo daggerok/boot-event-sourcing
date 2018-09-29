@@ -3,7 +3,7 @@ buildscript {
     springBootVersion = '2.0.5.RELEASE'
     springCloudVersion = 'Finchley.RELEASE'
     javaVersion = JavaVersion.VERSION_1_8
-    materializecssVersion = '1.0.0-rc.2'
+    materializecssVersion = '1.0.0'
     materialDesignIconsVersion = '3.0.1'
     jacksonKotlinVersion = '2.9.6'
     lombokVersion = '1.18.2'
