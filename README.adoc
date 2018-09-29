@@ -14,6 +14,7 @@ Let's implement simple internet store where you can create,
 paid order and where system can change it's state....
 
 link:https://www.wiseweb.pl/blog-how-to-implement-event-sourcing-in-java/[motivation]
+link:https://www.youtube.com/watch?v=Xu3Yn6Nx-iw[YouTube: KotlinConf 2017 - Why Spring Loves Kotlin by Sebastien Deleuze]
 
 === build, test, run
 
